@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> HTML уроки. Урок №2. HTML теги. Тег DIV и другие. Уроки HTML CSS JS. </title>
+</head>
+<body>
+
+
+    <!--Тег <a> предназначен для создания ссылок. В зависимости от присутствия атрибутов name или href тег <a> устанавливает ссылку или якорь.
+    Якорем называется закладка внутри страницы, которую можно указать в качестве цели ссылки.
+    При использовании ссылки, которая указывает на якорь, происходит переход к закладке внутри веб-страницы. http://htmlbook.ru/html/a
+    ВАЖНО - символ # в примере испльзован в качестве заглушки, а символ | в качестве разделителя ссылок-->
+
+    <header>
+        <!--Тег <header> задает «шапку» сайта или раздела, в которой обычно располагается заголовок-->
+
+        <p><a id="top"></a></p>
+        <!--Тег <p> - определяет текстовый абзац.  Является блочным элементом, всегда начинается с новой строки,
+        абзацы текста идущие друг за другом разделяются между собой отбивкой. Величиной отбивки можно управлять с помощью стилей.
+        Если закрывающего тега нет, считается, что конец абзаца совпадает с началом следующего блочного элемента.-->
+
+        <!--Пример реализации ссылки под текстом на начало страницы:
+        <p><a id="top"></a></p>- в начало текста или в тег <header>
+        <p><a href="#top">Наверх</a></p> - в конце текста-->
+
+        <h1>Структура тела HTML документа.</h1>
+
+        <nav>
+            <!--Тег <nav> задает навигацию по сайту. Если на странице несколько блоков ссылок, то в <nav> обычно помещают приоритетные ссылки.
+            Также допустимо использовать несколько тегов <nav> в документе. Запрещается вкладывать <nav> внутрь <address>.-->
+
+            <a href="#">Ссылка на раздел документа 1</a> |
+            <a href="#">Ссылка на раздел документа 2</a> |
+            <a href="http://htmlbook.ru/html/a">Подробнее о теге &lt;a&gt;</a> |
+        </nav>
+    </header>
+        <div>
+            <!--Элемент &lt;div&gt;> является блочным элементом и предназначен для выделения фрагмента документа с целью изменения вида содержимого.
+            Как правило, вид блока управляется с помощью стилей. Чтобы не описывать каждый раз стиль внутри тега, можно выделить стиль во внешнюю таблицу стилей,
+            а для тега добавить атрибут class или id с именем селектора.-->
+
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam commodi debitis delectus deserunt,
+                distinctio dolores fuga, illo impedit iure mollitia nesciunt numquam obcaecati odio quidem quisquam
+                similique totam vel voluptas!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores beatae blanditiis esse
+                minima quae quam quod ratione. Architecto consectetur cupiditate ea et, illo iste nesciunt quae saepe soluta
+                temporibus!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dolor dolorem dolores dolorum eaque
+                error esse eum facilis, harum illum magni maiores odio odit quo ratione tempora voluptas. Inventore,
+                repudiandae!
+            </p>
+        </div>
+    <footer>
+        <!--Тег <footer> задаёт «подвал» сайта или раздела, в нём может располагаться имя автора, дата документа, контактная и правовая информация.-->
+        Тег &lt;footer&gt; задаёт «подвал» сайта или раздела, в нём может располагаться имя автора, дата документа, контактная и правовая информация.
+    </footer>
+        <p><a href="#top">Наверх</a></p>
+    </body>
+</html>
